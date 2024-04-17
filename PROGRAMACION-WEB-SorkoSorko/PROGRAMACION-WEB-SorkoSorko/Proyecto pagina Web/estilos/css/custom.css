@@ -130,3 +130,39 @@ h1 {
 .contenedor-comentario button:hover {
     background-color: #0056b3;
 }
+.form-square {
+    width: 700px;
+    height: 350px;
+
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -100px; 
+    margin-bottom: -100px; 
+  }
+  .contenedor-cubierta {
+    position: absolute;
+    top: 150px;  
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px; 
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.form-horas {
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-top: 500px;
+  }
+
+  .form-group {
+    margin-bottom: 10px; 
+  }
